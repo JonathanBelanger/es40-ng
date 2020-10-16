@@ -2,6 +2,11 @@ es40-ng
 
 Based on es40.
 
+COMPILING:
+./inst.sh
+make -j12
+The resultant executable is at src/es40.
+
 SOME IMPORTANT FILES:
 PATH			DESCRIPTION
 rom/*			AlphaServer ES40 ROM images. These can be found on firmware update CDs, but you can only get the VGA BIOS from old builds of es40 on SourceForge.
