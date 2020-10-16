@@ -6,19 +6,19 @@
 // $Id$
 
 // Define to 1 if you want to show the cycle counter
-#define HIDE_COUNTER 1
+#undef HIDE_COUNTER
 
 // Define to 1 if you want to show estimate speed
-#undef MIPS_ESTIMATE
+#define MIPS_ESTIMATE 1
 
 // Define to 1 if you want to show memory map
 #undef DUMP_MEMMAP
 
 // Define to 1 if you want to check for overlapping of memory ranges
-#define CHECK_MEM_RANGES 1
+#undef CHECK_MEM_RANGES
 
 // Define to 1 if you want to use the new floating-point implementation
-#undef HAVE_NEW_FP
+#define HAVE_NEW_FP 1
 
 // Define to 1 if you want to enable VGA debugging
 #undef DEBUG_VGA

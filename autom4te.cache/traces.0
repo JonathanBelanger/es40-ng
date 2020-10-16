@@ -1114,8 +1114,8 @@ m4trace:configure.ac:53: -1- m4_pattern_allow([^am__fastdepCC_TRUE$])
 m4trace:configure.ac:53: -1- m4_pattern_allow([^am__fastdepCC_FALSE$])
 m4trace:configure.ac:53: -1- _AM_SUBST_NOTMAKE([am__fastdepCC_TRUE])
 m4trace:configure.ac:53: -1- _AM_SUBST_NOTMAKE([am__fastdepCC_FALSE])
-m4trace:configure.ac:58: -1- AM_PATH_SDL([$SDL_VERSION], [CXXFLAGS="$CXXFLAGS $SDL_CFLAGS -DHAVE_SDL"
-  LIBS="$LIBS $SDL_LIBS"
+m4trace:configure.ac:58: -1- AM_PATH_SDL([$SDL_VERSION], [CXXFLAGS="$CXXFLAGS $SDL_CFLAGS -DHAVE_SDL -DHAVE_PCAP"
+  LIBS="$LIBS $SDL_LIBS -lpcap"
   ], [:])
 m4trace:configure.ac:58: -1- m4_pattern_allow([^SDL_CONFIG$])
 m4trace:configure.ac:58: -1- _m4_warn([obsolete], [The macro `AC_TRY_RUN' is obsolete.

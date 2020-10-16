@@ -4617,8 +4617,8 @@ fi
   if test "x$no_sdl" = x ; then
      { $as_echo "$as_me:${as_lineno-$LINENO}: result: yes" >&5
 $as_echo "yes" >&6; }
-     CXXFLAGS="$CXXFLAGS $SDL_CFLAGS -DHAVE_SDL"
-  LIBS="$LIBS $SDL_LIBS"
+     CXXFLAGS="$CXXFLAGS $SDL_CFLAGS -DHAVE_SDL -DHAVE_PCAP"
+  LIBS="$LIBS $SDL_LIBS -lpcap"
 
   else
      { $as_echo "$as_me:${as_lineno-$LINENO}: result: no" >&5
