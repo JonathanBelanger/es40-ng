@@ -978,7 +978,7 @@ m4trace:configure.ac:48: -1- AM_CONFIG_HEADER([src/config.h])
 m4trace:configure.ac:48: -1- _m4_warn([obsolete], ['AM_CONFIG_HEADER': this macro is obsolete.
 You should use the 'AC_CONFIG_HEADERS' macro instead.], [/usr/share/aclocal-1.16/obsolete.m4:11: AM_CONFIG_HEADER is expanded from...
 configure.ac:48: the top level])
-m4trace:configure.ac:49: -1- AM_INIT_AUTOMAKE([es40], [0.18+])
+m4trace:configure.ac:49: -1- AM_INIT_AUTOMAKE([es40], [0.19])
 m4trace:configure.ac:49: -1- m4_pattern_allow([^AM_[A-Z]+FLAGS$])
 m4trace:configure.ac:49: -1- AM_SET_CURRENT_AUTOMAKE_VERSION
 m4trace:configure.ac:49: -1- AM_AUTOMAKE_VERSION([1.16.2])
