@@ -1,0 +1,3 @@
+./inst.sh
+
+This will run the configurator, then the GNU Automake configure script.

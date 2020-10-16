@@ -1,0 +1,12 @@
+es40-ng
+
+Based on es40.
+
+SOME IMPORTANT FILES:
+PATH			DESCRIPTION
+rom/*			AlphaServer ES40 ROM images. These can be found on firmware update CDs, but you can only get the VGA BIOS from old builds of es40 on SourceForge.
+m4/*			M4 scripts for finding things like libx11 and SDL.
+src/*			Source code.
+src/base/*		Library source.
+src/es40.cfg		Example ES40 configuration file.
+src/es40		ES40 executable.
