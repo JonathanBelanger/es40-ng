@@ -2,10 +2,12 @@
 .deps/
 es40.cfg
 *.o
+*~
 Makefile
 config.status
 config.log
 src/config.h
+src/config_debug.h
 src/es40
 src/es40_cfg
 src/es40_idb

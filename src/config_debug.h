@@ -18,7 +18,7 @@
 #undef CHECK_MEM_RANGES
 
 // Define to 1 if you want to use the new floating-point implementation
-#define HAVE_NEW_FP 1
+#undef HAVE_NEW_FP
 
 // Define to 1 if you want to enable VGA debugging
 #undef DEBUG_VGA
