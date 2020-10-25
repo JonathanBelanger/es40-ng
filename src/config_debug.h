@@ -6,10 +6,10 @@
 // $Id$
 
 // Define to 1 if you want to show the cycle counter
-#undef HIDE_COUNTER
+#define HIDE_COUNTER 1
 
 // Define to 1 if you want to show estimate speed
-#define MIPS_ESTIMATE 1
+#undef MIPS_ESTIMATE
 
 // Define to 1 if you want to show memory map
 #undef DUMP_MEMMAP

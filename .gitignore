@@ -1,0 +1,15 @@
+.project
+.deps/
+es40.cfg
+*.o
+Makefile
+config.status
+config.log
+src/config.h
+src/es40
+src/es40_cfg
+src/es40_idb
+src/es40_lsm
+src/es40_lss
+src/stamp-h1
+

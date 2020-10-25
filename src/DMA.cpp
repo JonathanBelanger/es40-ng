@@ -185,8 +185,9 @@ u64 CDMA::ReadMem(int index, u64 address, int dsize)
 #if defined(DEBUG_DMA)
     printf("dma: read %s,%02x: %02x.   \n", DMA_INDEX(index), address, data);
 #endif
-    return data;
+    ret = data;
   }
+  return ret;
 }
 
 void CDMA::WriteMem(int index, u64 address, int dsize, u64 data)
